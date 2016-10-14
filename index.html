@@ -1,0 +1,80 @@
+<!DOCTYPE html>   
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>ULL Social</title>
+ 
+        <link rel="stylesheet" href="./style.css">
+
+	   <script type="text/javascript" src="js.js"></script>
+ 
+  </head>
+
+  <body>
+  
+<div ALIGN=center><img src="https://dl.dropboxusercontent.com/u/52392425/fondo2.jpg">
+  
+</div>  
+
+   <!Clase Cuerpo> 
+  <div class= "cuerpo">  
+<P> Muchas veces ha habido eventos cerca de nosotros a los que nos hubiera gustado ir pero nos hemos enterado tarde y no asistimos. Otras veces no hemos tenido con quién asistir y por no ir solos hemos decidido "ir al siguiente".
+<P>Si estás entre esas personas a las que le ha pasado esto alguna vez, o crees que podría pasarte, te interesará ésta aplicación.
+
+<H3>Con ULL Social podrás:</H3>
+
+  <LI> Crear eventos e incribirse a otros ya existentes.
+    
+  <LI> Invitar y compartir con amigos eventos mediante redes sociales.
+    
+  <LI> Al seleccionar un evento del calendario se desplagrará la información sobre éste así como opiniones de otros usuarios.  
+    
+  <LI> Ranking con los mejores creadores de eventos, su valoración y los eventos que les han hecho alcanzar su puesto en el ranking.
+    <br>
+    </div>
+    
+ <!Clase Formulario>   
+<div class:"formulario">
+<div style="color: #cc6600">
+  <p><strong> Registrate! </strong></div>
+ <form action="pagina2.html" method="get">
+  Nombre:
+  <input type="text" name="nombre" value="" required />
+   <br>
+  Apellidos:
+  <input type="text" name="apellidos" value="" required/> 
+   <br>
+  Correo electrónico institucional:
+<input name="email" type="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="form-control" placeholder="Email*" id="email" required="">
+    <br>
+  Usuario:
+  <input type="text" name="usuario" value="" required/> 
+    <br>
+  Contraseña:
+  <input type="password" name="pass" value=""required /> 
+  Repite la contraseña:
+  <input type="password" name="pass_confirm" value="" required/> 
+ 
+  <br>
+<br>
+¡Ayúdanos a mejorar! Selecciona lo que te gustaría que tuviera nuestra página
+<br>
+<input type="radio" name="chat" /> Chat  
+<br>
+<input type="radio" name="diseñador" /> Un diseñador mejor  
+<br>
+<input type="radio" name="sincronizacion" /> Sincronización con el correo 
+<br>
+<input type="radio" name="buzon" /> Buzón de sugerencias 
+<br>
+
+  <input type="submit" value="Enviar" onClick="comprobarEmail()"/>
+   
+     <br>
+
+
+</form> 
+</div>  
+  
+  </body>
+</html>
